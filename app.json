@@ -12,8 +12,8 @@
       }
     }
   }
-}
-      "edgeToEdgeEnabled": true
+}      
+"edgeToEdgeEnabled": true
     },
     "web": {
       "bundler": "metro",
