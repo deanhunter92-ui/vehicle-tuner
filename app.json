@@ -13,6 +13,10 @@
     },
     "android": {
      "package":"com.beagally.cartuner",
+     },
+     "extra":{
+      "eas":{
+       "projectId":"a78760d1-4c01-41bb-9bf4-001b3634ab76"
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
