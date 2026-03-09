@@ -3,18 +3,16 @@
     "name": "Vehicle Tuner",
     "slug": "vehicle-tuner",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "android": {
-      "package": "com.beagally.cartuner",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+      "package": "com.beagally.cartuner"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a78760d1-4c01-41bb-9bf4-001b3634ab76"
       }
+    }
+  }
+}
       "edgeToEdgeEnabled": true
     },
     "web": {
