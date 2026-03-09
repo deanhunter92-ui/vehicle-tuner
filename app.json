@@ -1,26 +1,20 @@
 {
   "expo": {
-    "name": "vehicle-tuner",
+    "name": "Vehicle Tuner",
     "slug": "vehicle-tuner",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true
-    },
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
-     "package":"com.beagally.cartuner",
-     },
-     "extra":{
-      "eas":{
-       "projectId":"a78760d1-4c01-41bb-9bf4-001b3634ab76"
+      "package": "com.beagally.cartuner",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
+      }
       "edgeToEdgeEnabled": true
     },
     "web": {
